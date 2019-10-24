@@ -1,0 +1,21 @@
+header{
+  text-align:right
+}
+
+h3{
+  font-family: 'Amatic SC', cursive;
+  text-indent: 5mm;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+article p{
+  text-indent: 5mm;
+  font-size: 20px;
+}
+
+article{
+  font-family: 'Amatic SC', cursive;
+}
+
