@@ -1,0 +1,28 @@
+.FirstCard {
+    background-image: url("img/cards.png");
+    background-repeat: no-repeat;
+    background-position: -140px -195px;
+    width: 145px;
+    height: 195px;
+    float: left;
+}
+
+.SecondCard {
+    float: left;
+    background-image: url("img/cards.png");
+    background-repeat: no-repeat;
+    background-position: -430px -593px;
+    width: 145px;
+    height: 195px;
+    margin-left: -100px;
+}
+
+.ThirdCard{
+    float: left;
+    background-image: url("img/cards.png");
+    background-repeat: no-repeat;
+    background-position: -285px -1390px;
+    width: 145px;
+    height: 195px;
+    margin-left: -100px;
+}

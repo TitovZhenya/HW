@@ -1,0 +1,9 @@
+div{
+    width: 83%;
+    padding: 40px;
+    background-image: url("../img/right-top.png"), url("../img/left-top.png"),
+    url("../img/left-bot.png"), url("../img/right-bot.png"), url("../img/right.png"),
+    url("../img/left.png"), url("../img/top.png"), url("../img/bot.png");
+    background-position: top right, top left, bottom left, bottom right, right, left, top, bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x;
+}

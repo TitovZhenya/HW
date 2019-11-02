@@ -1,0 +1,25 @@
+.navigation{
+    width: 15em;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.content{
+    background-color: bisque;
+    margin-bottom: 2em;
+    margin-left: 240px;
+}
+
+.footerBlock{
+    background-color: antiquewhite;
+    clear: both;
+}
+
+.image{
+    background-image: url(img/mail.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+

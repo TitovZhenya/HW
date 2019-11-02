@@ -1,0 +1,36 @@
+.div1{
+    width: 83%;
+    background: url("../img/left.png") repeat-y left;
+}
+
+.div2{
+    background: url("../img/top.png") repeat-x top;
+    }
+
+.div3{
+    background: url("../img/right.png") repeat-y right;
+}
+
+.div4{
+    background: url("../img/bot.png") repeat-x bottom;
+}
+
+.div5{
+    background: url("../img/left-top.png") no-repeat top left;
+}
+
+.div6{
+    background: url("../img/right-top.png") no-repeat top right;
+}
+
+.div7{
+    background: url("../img/left-bot.png") no-repeat bottom left;
+}
+
+.div8{
+    background: url("../img/right-bot.png") no-repeat bottom right;
+}
+
+.div9{
+    padding: 40px;
+}

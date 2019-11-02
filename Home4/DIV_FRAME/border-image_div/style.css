@@ -1,0 +1,8 @@
+div{
+    border-style: solid;
+    border-width: 55px;
+    width: 90%;
+    border-image-source: url("../img/ramka.png");
+    border-image-slice: 11%;
+    text-align: justify;
+}
