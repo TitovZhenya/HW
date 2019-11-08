@@ -1,0 +1,51 @@
+.mainMenu{
+  margin: 0;
+  padding: 0;
+}
+
+.mainMenu ul li{
+  float: left;
+  border: 2px solid grey;
+  position: relative;
+  background: darkgrey;
+  list-style: none;
+  width: 200px;
+  margin-left: -3px;
+}
+
+.mainMenu ul li a{
+  color: dimgray;
+  text-decoration: none;
+}
+
+
+.mainMenu li ul{
+  position: absolute;
+  padding: 0px;
+  margin-left: 1px;
+}
+
+.mainMenu li:hover{
+  background: #eeeeee;
+  transition: all 0.3s ease;
+}
+
+#menu ul{
+  visibility: hidden;
+}
+
+#menu li:hover ul{
+  visibility: visible;
+  position: relative;
+}
+
+@media all and (max-width: 1261px) {
+  .mainMenu ul li {
+    float: none;
+    display: block;
+    width: 260px;
+    padding: 3px;
+    margin-left: -6px;
+  }
+}
+
