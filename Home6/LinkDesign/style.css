@@ -1,0 +1,50 @@
+p{
+  border: solid 1px;
+  border-radius: 0 5px;
+  text-indent: 20px;
+}
+
+p a:first-child:before{
+  content: url("pic/extref.png");
+}
+
+p a[href^="files/document.doc"]:after{
+  content: url("pic/logo-doc.jpg");
+}
+
+p:nth-child(3) a:last-child:after{
+  content: url("pic/logo-pdf.png");
+}
+
+p a[href^="files/document.zip"]:after{
+  content: url("pic/logo-zip.gif");
+}
+
+ul{
+  list-style: none;
+}
+
+li:first-child:before{
+  content: url("pic/logo-list.jpg");
+}
+
+li:nth-child(2):before{
+  content: url("pic/logo-list.jpg");
+
+}
+
+li:last-child:before{
+  content: url("pic/logo-list.jpg");
+}
+
+li:first-child:hover:after{
+  content: url("pic/logo-doc.jpg");
+}
+
+li:nth-child(2):hover:after{
+  content: url("pic/logo-pdf.png");
+}
+
+li:last-child:hover:after{
+  content: url("pic/logo-zip.gif");
+}
