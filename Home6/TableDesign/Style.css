@@ -1,0 +1,28 @@
+table,th,td{
+    border-collapse: collapse ;
+    border: dotted 1px;
+}
+
+tr:first-child{
+    background-color: dimgray;
+    color: white;
+}
+
+tr:nth-child(3),tr:nth-child(5){
+    background-color: darkgrey;
+}
+
+caption{
+    caption-side: bottom;
+    text-transform: uppercase;
+}
+
+tr:not(:first-child) th{
+    text-align: left;
+}
+
+td:last-child:hover, td:nth-last-child(2):hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    text-align: center;
+}
